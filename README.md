@@ -85,6 +85,8 @@ The base of this audit should be this commit: https://github.com/equilibria-xyz/
 This update enables Intents in the Perennial system - this allows for orders to be matched by an off-chain system and submitted on-chain by the market maker for the intent. This results in numerous signature based messages which are verified on-chain by the intent system. We have also moved some the existing extensions to the signature based system, such as trigger orders
 
 Coming from update #2, we opted to fully remove "no-op" settles which allow for settlement without any changes to the account. We have also made settlement and liquidation fees gas-aware
+
+Here's the doc about migration from 2.2 to 2.3 and issues that come from migration explained in this doc and have H/M impact, will be considered valid https://github.com/equilibria-xyz/perennial-v2/blob/edcf4d1a8ddd01f979118d2a9e7bfab3fd6f6c75/runbooks/MIGRATION_v2.3.md
 ___
 
 
